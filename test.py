@@ -66,6 +66,8 @@ if __name__ == '__main__':
 
     files = glob.glob("{}/imgs/*.png".format(PATH))
 
+    files.sort()
+
     if os.path.exists("{}/views".format(PATH)) is False:
         os.mkdir("{}/views".format(PATH))
 
