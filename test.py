@@ -10,14 +10,18 @@ NUM = 6
 WIDTH, HEIGHT = 400, 300
 
 NAMES = [
+    "camp_smooth",
     "camp",
+    "ccorr_smooth",
     "ccorr",
     "flag",
     "flag_phase",
     "flag_phaseG_amp",
     "flag_phase_laplacian",
     "binAmp",
+    "phase_gradient",
 ]
+
 
 # {}: items
 CODE0_HTML = """<html>
